@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:aqua;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:#4CAF50;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #studentList {
+    margin-top: 20px;
+  }
+  
+  .student {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    
+  }
+  
+  .student p {
+    margin: 5px 0;
+  }
+  
